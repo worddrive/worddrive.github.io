@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WordDrive Comm & Associates</title>
+  <style>
+    :root {
+      --brand-gold: #d4a441;
+      --deep-navy: #0b1f2a;
+      --light-gold: #f0d28c;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--deep-navy);
+      color: var(--brand-gold);
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: var(--deep-navy);
+    }
+
+    nav {
+      background-color: #122b3d;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: var(--light-gold);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header img {
+      max-width: 150px;
+      border-radius: 12px;
+    }
+
+    h1 {
+      margin-top: 1rem;
+      font-size: 2.5rem;
+      color: var(--brand-gold);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      color: var(--brand-gold);
+      border-bottom: 1px solid var(--brand-gold);
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+
+    .services ul, .clients ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "✔";
+      margin-right: 8px;
+      color: var(--light-gold);
+    }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .process-step {
+      background-color: #132e3f;
+      padding: 1rem;
+      border-radius: 12px;
+      color: var(--light-gold);
+      text-align: center;
+    }
+
+    .process-step img {
+      max-width: 100px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      background-color: var(--deep-navy);
+      color: var(--light-gold);
+    }
+
+    a {
+      color: var(--light-gold);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="worddrive company.jpg" alt="WordDrive Logo" />
+    <h1>WordDrive Comm & Associates</h1>
+    <p><em>Driving Impact Through Strategic Communication</em></p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#process">Our Process</a>
+    <a href="#clients">Our Clients</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Branding & Marketing Strategy</li>
+      <li>Graphic Design</li>
+      <li>Video Marketing</li>
+      <li>Content Creation</li>
+      <li>Social Media Management</li>
+      <li>Google SEO & Digital Campaigns</li>
+    </ul>
+  </section>
+
+  <section id="process">
+    <h2>Our Marketing Process</h2>
+    <div class="process-steps">
+      <div class="process-step">
+        <img src="https://cdn-icons-png.flaticon.com/512/2989/2989988.png" alt="Research Icon">
+        <h3>1. Market Research</h3>
+        <p>We study your target audience, industry, and competitors to create a tailored approach.</p>
+      </div>
+      <div class="process-step">
+        <img src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png" alt="Strategy Icon">
+        <h3>2. Strategy Design</h3>
+        <p>We craft data-backed strategies that align with your goals and budget.</p>
+      </div>
+      <div class="process-step">
+        <img src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" alt="Execution Icon">
+        <h3>3. Execution</h3>
+        <p>We launch campaigns across digital channels including SEO, video, and social media.</p>
+      </div>
+      <div class="process-step">
+        <img src="https://cdn-icons-png.flaticon.com/512/2910/2910762.png" alt="Analytics Icon">
+        <h3>4. Monitoring & Analytics</h3>
+        <p>We continuously track results, optimize performance, and report progress to you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients" class="clients">
+    <h2>Our Clients</h2>
+    <ul>
+      <li>Jolly Butcheries</li>
+      <!-- Add more clients here as you grow -->
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong><br>
+      +254 746 223 741<br>
+      +254 717 015 698
+    </p>
+    <p><strong>Email:</strong><br>
+      <a href="mailto:worddrivecommunications@gmail.com">worddrivecommunications@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 WordDrive Comm & Associates. All rights reserved.
+  </footer>
+</body>
+</html>
